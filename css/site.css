@@ -115,7 +115,8 @@ header, section, footer {
   .container .section {
     padding: 10px 0; }
   .container .subsection {
-    padding: 10px 0; }
+    padding: 10px 0;
+    margin-top: 10px; }
   .container ul {
     margin-top: 5px;
     padding-left: 18px;
@@ -198,6 +199,9 @@ img {
         background-size: contain;
         width: 80px;
         height: 40px; } }
+
+h4 .label {
+  margin-left: -8px; }
 
 .label {
   padding: 3px 7px; }
