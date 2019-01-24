@@ -2,7 +2,6 @@ body {
 	margin: 0;
 	font-family: $font-default;
 	color: $c-text;
-  background: $bg-grey;
 }
 
 header, section, footer {
@@ -11,6 +10,48 @@ header, section, footer {
 }
 
 .container {
-	max-width: 1256px;
+	max-width: 1020px;
 	margin: 0 auto;
+}
+img {
+  display: block;
+  width:100%;
+  height: auto;
+}
+
+header {
+  height: 100px;
+  //height: 600px;
+  //background: url('../images/space_bg.jpg') no-repeat;
+  //background-size: cover;
+}
+
+footer {
+  background: $bg-blue;
+  padding: 20px 0;
+  margin: 50px 0;
+  .footer-content {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .update {
+    font-size: $font-sz-sm;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    background: url('../images/goinvo_logo.svg') no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 40px;
+    margin: 0 auto;
+  }
+}
+
+.nav {
+  position: fixed;
+
+  ul {
+    list-style: none;
+  }
 }

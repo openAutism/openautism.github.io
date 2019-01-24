@@ -7,6 +7,7 @@ h1, h2, h3 {
 
 h1 {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
   font-size: 3rem; }
   @media (min-width: 450px) {
     h1 {
@@ -21,7 +22,7 @@ h2 {
 
 h3 {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-transform: uppercase;
   font-weight: 700; }
 
@@ -38,8 +39,10 @@ a, a:visited {
 p {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 1rem;
+  font-weight: 400;
   line-height: 1.7rem;
-  color: #333; }
+  color: #333;
+  max-width: 800px; }
 
 button,
 .button {
@@ -87,13 +90,47 @@ textarea {
 body {
   margin: 0;
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  color: #333;
-  background: #F9F9F9; }
+  color: #333; }
 
 header, section, footer {
   width: 100%;
   position: relative; }
 
 .container {
-  max-width: 1256px;
+  max-width: 1020px;
   margin: 0 auto; }
+
+img {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+header {
+  height: 100px; }
+
+footer {
+  background: #EFF1F6;
+  padding: 20px 0;
+  margin: 50px 0; }
+  footer .footer-content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: start;
+        justify-content: flex-start; }
+  footer .update {
+    font-size: 0.75rem; }
+  footer .logo {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+        justify-content: center;
+    background: url("../images/goinvo_logo.svg") no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 40px;
+    margin: 0 auto; }
+
+.nav {
+  position: fixed; }
+  .nav ul {
+    list-style: none; }
