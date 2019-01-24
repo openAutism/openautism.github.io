@@ -103,6 +103,10 @@ header, section, footer {
   padding: 30px; }
   .container#title {
     padding-top: 100px; }
+  .container .section {
+    padding: 10px 0; }
+  .container .subsection {
+    padding: 10px 0; }
 
 @media (min-width: 768px) {
   .container {
@@ -110,6 +114,19 @@ header, section, footer {
     padding: 30px 0; }
     .container#title {
       padding-top: 10px; } }
+
+ul {
+  margin-top: 5px;
+  padding-left: 18px;
+  list-style: none; }
+  ul li {
+    margin-bottom: 0.5rem; }
+  ul li::before {
+    display: inline-block;
+    content: "\2022";
+    color: #C3DAF5;
+    width: 1rem;
+    margin-left: -1rem; }
 
 img {
   display: block;

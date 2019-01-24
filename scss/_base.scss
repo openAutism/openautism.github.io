@@ -16,6 +16,12 @@ header, section, footer {
   &#title {
     padding-top: 100px;
   }
+  .section {
+    padding: 10px 0;
+  }
+  .subsection {
+      padding: 10px 0;
+  }
 }
 @media (min-width: 768px) {
   .container {
@@ -24,6 +30,22 @@ header, section, footer {
     &#title {
       padding-top: 10px;
     }
+  }
+}
+
+ul {
+  margin-top: 5px;
+  padding-left: 18px;
+  list-style: none;
+  li {
+    margin-bottom: 0.5rem;
+  }
+  li::before {
+    display: inline-block;
+    content: "\2022";
+    color: $light-blue;
+    width: 1rem;
+    margin-left: -1rem;
   }
 }
 
