@@ -131,6 +131,16 @@ footer {
     margin: 0 auto; }
 
 .nav {
-  position: fixed; }
+  position: fixed;
+  background: #EFF1F6;
+  width: 200px;
+  height: 100%;
+  overflow: hidden;
+  padding: 20px; }
   .nav ul {
-    list-style: none; }
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    .nav ul li {
+      margin-left: 0;
+      padding-left: 0; }
