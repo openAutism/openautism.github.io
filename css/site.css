@@ -24,7 +24,8 @@ h3 {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-size: 1rem;
   text-transform: uppercase;
-  font-weight: 700; }
+  font-weight: 700;
+  letter-spacing: 0.10rem; }
 
 h4 {
   font-weight: bold;
@@ -97,40 +98,57 @@ header, section, footer {
   position: relative; }
 
 .container {
-  max-width: 1020px;
-  margin: 0 auto; }
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 30px 0; }
 
 img {
   display: block;
   width: 100%;
-  height: auto; }
-
-header {
-  height: 100px; }
-
-footer {
-  background: #EFF1F6;
-  padding: 20px 0;
-  margin: 50px 0; }
-  footer .footer-content {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: start;
-        justify-content: flex-start; }
-  footer .update {
-    font-size: 0.75rem; }
-  footer .logo {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-pack: center;
-        justify-content: center;
-    background: url("../images/goinvo_logo.svg") no-repeat;
-    background-size: contain;
-    width: 80px;
-    height: 40px;
-    margin: 0 auto; }
+  height: auto;
+  margin: 20px 0 10px 0; }
 
 .nav {
-  position: fixed; }
+  position: fixed;
+  background: #EFF1F6;
+  width: 200px;
+  height: 100%;
+  overflow: hidden;
+  padding: 20px; }
   .nav ul {
-    list-style: none; }
+    list-style: none;
+    margin: 30px 0;
+    padding: 0; }
+    .nav ul li {
+      margin-left: 0;
+      padding-left: 0;
+      padding-bottom: 5px;
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 0.10rem; }
+  .nav .footer {
+    position: absolute;
+    bottom: 20px; }
+    .nav .footer .update {
+      font-size: 0.75rem; }
+    .nav .footer .logo {
+      background: url("../images/goinvo_logo.svg") no-repeat;
+      background-size: contain;
+      width: 80px;
+      height: 40px; }
+
+.label {
+  padding: 3px 7px; }
+  .label.human {
+    background: #FFD0AE; }
+  .label.data {
+    background: #C3F5E9; }
+  .label.practical {
+    background: #C3DAF5; }
+
+.labels {
+  margin-bottom: 40px;
+  font-size: 0.75rem; }
+  .labels .label {
+    display: inline;
+    margin-right: 30px; }
