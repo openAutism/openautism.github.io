@@ -53,6 +53,15 @@ p {
     line-height: 1.7rem;
     color: $c-text;
     max-width: 800px;
+    &.caption {
+      margin-bottom: -10px;
+      margin-top: 30px;
+      color: $c-text-grey;
+    }
+}
+.sm-text {
+  font-size: $font-sz-sm;
+  color: $c-text-grey;
 }
 
 button,

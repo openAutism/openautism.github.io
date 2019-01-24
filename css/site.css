@@ -44,6 +44,14 @@ p {
   line-height: 1.7rem;
   color: #333;
   max-width: 800px; }
+  p.caption {
+    margin-bottom: -10px;
+    margin-top: 30px;
+    color: #787878; }
+
+.sm-text {
+  font-size: 0.75rem;
+  color: #787878; }
 
 button,
 .button {
@@ -107,6 +115,18 @@ header, section, footer {
     padding: 10px 0; }
   .container .subsection {
     padding: 10px 0; }
+  .container ul {
+    margin-top: 5px;
+    padding-left: 18px;
+    list-style: none; }
+    .container ul li {
+      margin-bottom: 0.5rem; }
+    .container ul li::before {
+      display: inline-block;
+      content: "\2022";
+      color: #C3DAF5;
+      width: 1rem;
+      margin-left: -1rem; }
 
 @media (min-width: 768px) {
   .container {
@@ -114,19 +134,6 @@ header, section, footer {
     padding: 30px 0; }
     .container#title {
       padding-top: 10px; } }
-
-ul {
-  margin-top: 5px;
-  padding-left: 18px;
-  list-style: none; }
-  ul li {
-    margin-bottom: 0.5rem; }
-  ul li::before {
-    display: inline-block;
-    content: "\2022";
-    color: #C3DAF5;
-    width: 1rem;
-    margin-left: -1rem; }
 
 img {
   display: block;
