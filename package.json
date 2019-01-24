@@ -7,6 +7,10 @@
     "body-parser": "^1.18.2",
     "express": "^4.16.2"
   },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js | grunt"
+  },
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-autoprefixer": "^3.0.4",
