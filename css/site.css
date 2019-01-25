@@ -169,6 +169,9 @@ img {
       display: none; }
     .nav .footer .logo {
       display: none; }
+    .nav .footer .email, .nav .footer .github {
+      display: inline-block;
+      margin-right: 20px; }
 
 @media (min-width: 768px) {
   .nav {
